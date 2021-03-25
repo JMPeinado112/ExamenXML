@@ -1,1 +1,30 @@
-W
+libro, titulo, autor, fechaPublicacion {
+  display: block;
+}
+
+CinturonNegroPrimerDan {
+  background-color: lightgrey;
+  font-family: sans-serif;
+  display: block;
+}
+
+libro {
+  background-color: lightgreen;
+  border: black 2px solid;
+  margin: 10px;
+}
+
+titulo {
+  background-color: white;
+  border-bottom: black 2px solid;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+autor {
+  padding-left: 5px;
+}
+
+fechaPublicacion {
+  padding-left: 5px;
+}

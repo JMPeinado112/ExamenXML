@@ -35,21 +35,21 @@ xsi:noNamespaceSchemaLocation="ExamenEstructura.xsd">
             <aplicaciones_tecnicas>Tecnicas de aplicacion</aplicaciones_tecnicas>
             <kumite>Kumite 2</kumite>
             <campeonatos>3</campeonatos>
-            <tecnica></tecnica>
-            <aplicaciones></aplicaciones>
-            <aplicacion_tecnica></aplicacion_tecnica>
-            <demo_libre></demo_libre>               
+            <tecnica>si</tecnica>
+            <aplicaciones>3</aplicaciones>
+            <aplicacion_tecnica>4</aplicacion_tecnica>
+            <demo_libre>DEmo no disponible</demo_libre>               
         </CinturonNegroTercerDan>
         <CinturonNegroCuartoDan>     
-            <kumite></kumite>
-            <kata></kata>
-            <coloquio></coloquio>
-            <aplicaciones_tecnicas></aplicaciones_tecnicas>
-            <demo_libre></demo_libre>
+            <kumite>Kumite</kumite>
+            <kata>Katana</kata>
+            <coloquio>Karate</coloquio>
+            <aplicaciones_tecnicas>Tecnicas</aplicaciones_tecnicas>
+            <demo_libre>Si</demo_libre>
         </CinturonNegroCuartoDan>
         <CinturonNegroQuintoDan>     
-            <kata></kata>
-            <coloquio></coloquio>
+            <kata>Asasasi</kata>
+            <coloquio>Shino</coloquio>
         </CinturonNegroQuintoDan>
         <CinturonNegro> 
             <Tecnica_directa></Tecnica_directa>

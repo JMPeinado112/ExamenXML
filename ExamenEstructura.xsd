@@ -9,6 +9,20 @@
                   <xsd:element name="CinturonNegroPrimerDan" type="typeCinturonNegroPrimerDan"/>
                   <xsd:element name="CinturonNegroSegundoDan" type="typeCinturonNegroSegundoDan"/>
                   <xsd:element name="CinturonNegroTercerDan" type="typeCinturonNegroTercerDan"/>
+                  <xsd:element name="CinturonNegroCuartoDan" type="typeCinturonNegroCuartoDan"/>
+                  <xsd:element name="CinturonNegroQuintoDan" type="typeCinturonNegroQuintoDan"/>
+                  <xsd:element name="CinturonNegro" type="typeCinturonNegro"/>
+                  <xsd:element name="Hasta3erDan" type="typeHasta3erDan"/>
+                  <xsd:element name="SuspendeExamen" type="typeSuspendeExamen"/>
+                  <xsd:element name="AbonarCuota" type="typeAbonarCuota"/>
+                  <xsd:element name="Resultados" type="typeResultados"/>
+                  <xsd:element name="Tribunal" type="typeTribunal"/>
+                  <xsd:element name="Jueces" type="typeJueces"/>
+                  <xsd:element name="Meritos" type="typeMeritos"/>
+                  <xsd:element name="Convalidacion_grados" type="typeConvalidacion_grados"/>
+                  <xsd:element name="Requisitos_Aspirante" type="typeRequisitos_Aspirantes"/>
+                  <xsd:element name="DispensaMedica" type="typeDispensaMedica"/>
+                  <xsd:element name="Criterio_Valoracion" type="typeCriterio_Valoracion"/>
                   <xsd:element name="Aspirantes" type="typeAspirantes"/>
                 </xsd:sequence>
             </xsd:restriction>
@@ -73,24 +87,97 @@
             </xsd:restriction>
         </xsd:complexContent>
     </xsd:complexType>
-    <xsd:complexType name="typeCinturonNegroTercerDan">
+<xsd:complexType name="typeCinturonNegroTercerDan">
+ <xsd:complexContent>
+     <xsd:restriction base="xsd:anyType">
+         <xsd:sequence>
+             <xsd:element name="variaciones_tecnica" type="xsd:string"/>
+             <xsd:element name="kumite" type="xsd:string"/> 
+             <xsd:element name="kata" type="xsd:string"/>
+             <xsd:element name="aplicaciones_tecnicas" type="xsd:string"/>
+             <xsd:element name="kumite" type="xsd:string"/>
+             <xsd:element name="campeonatos" type="xsd:string"/>
+             <xsd:element name="tecnica" type="xsd:string"/>
+             <xsd:element name="aplicaciones" type="xsd:string"/>
+             <xsd:element name="aplicacion_tecnica" type="xsd:string"/>
+             <xsd:element name="demo_libre" type="xsd:string"/>
+         </xsd:sequence>
+     </xsd:restriction>
+ </xsd:complexContent>
+ </xsd:complexType>
+    <xsd:complexType name="typeCinturonNegroCuartoDan">
         <xsd:complexContent>
             <xsd:restriction base="xsd:anyType">
                 <xsd:sequence>
-                    <xsd:element name="variaciones_tecnica" type="xsd:string"/>
                     <xsd:element name="kumite" type="xsd:string"/> 
                     <xsd:element name="kata" type="xsd:string"/>
+                    <xsd:element name="coloquio" type="xsd:string"/>
                     <xsd:element name="aplicaciones_tecnicas" type="xsd:string"/>
-                    <xsd:element name="kumite" type="xsd:string"/>
-                    <xsd:element name="campeonatos" type="xsd:string"/>
-                    <xsd:element name="tecnica" type="xsd:string"/>
-                    <xsd:element name="aplicaciones" type="xsd:string"/>
-                    <xsd:element name="aplicacion_tecnica" type="xsd:string"/>
                     <xsd:element name="demo_libre" type="xsd:string"/>
                 </xsd:sequence>
             </xsd:restriction>
         </xsd:complexContent>
     </xsd:complexType>
+<xsd:complexType name="typeCinturonNegroQuintoDan">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="kata" type="xsd:string"/>
+                 <xsd:element name="coloquio" type="xsd:string"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeCinturonNegro">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Tecnica_directa" type="xsd:string"/>
+                 <xsd:element name="tecnica_circulares" type="xsd:string"/>
+                 <xsd:element name="tecnica_pierna" type="xsd:string"/>
+                 <xsd:element name="teoria" type="xsd:string"/>
+                 <xsd:element name="kata" type="xsd:string"/>
+                 <xsd:element name="kumite" type="xsd:string"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeHasta3erDan">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Tecnicas" type="xsd:string"/>
+                 <xsd:element name="kata" type="xsd:string"/>
+                 <xsd:element name="kumite" type="xsd:string"/>
+                 <xsd:element name="campeonatos" type="xsd:string"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeSuspendeExamen">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Tecnicas" type="xsd:string"/>
+                 <xsd:element name="kata" type="xsd:string"/>
+                 <xsd:element name="kumite" type="xsd:string"/>
+                 <xsd:element name="campeonatos" type="xsd:string"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeHasta3erDan">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Tecnicas" type="xsd:string"/>
+                 <xsd:element name="kata" type="xsd:string"/>
+                 <xsd:element name="kumite" type="xsd:string"/>
+                 <xsd:element name="campeonatos" type="xsd:string"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
 
 <xsd:simpleType name="code">
     <xsd:restriction base="xsd:string">

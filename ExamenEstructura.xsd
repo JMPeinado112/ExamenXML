@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+<xsd:element name="Examen_Karate" type="Examen"/>
+<xsd:complexType name="Examen">
+        <xsd:complexContent>
+            <xsd:restriction base="xsd:anyType">
+                <xsd:sequence>
+                  <xsd:element name="Id_aspirante" type="code"/>
+                  <xsd:element name="CinturonNegroPrimerDan" type="typeCinturonNegroPrimerDan"/>
+                  <xsd:element name="CinturonNegroSegundoDan" type="typeCinturonNegroSegundoDan"/>
+                  <xsd:element name="CinturonNegroTercerDan" type="typeCinturonNegroTercerDan"/>
+                  <xsd:element name="Aspirantes" type="typeAspirantes"/>
+                </xsd:sequence>
+            </xsd:restriction>
+        </xsd:complexContent>
+    </xsd:complexType> 
+    <xsd:complexType name="typeAspirantes">
+      <xsd:complexContent>
+          <xsd:restriction base="xsd:anyType">
+              <xsd:sequence>
+                  <xsd:element name="id_aspirante" type="code"/>
+                  <xsd:element name="nombres" type="xsd:string"/> 
+                  <xsd:element name="apellidos" type="xsd:string"/>
+                  <xsd:element name="DNI" type="DNI"/>
+                  <xsd:element name="telefono" type="Telefono"/>
+                  <xsd:element name="direccion" type="xsd:string"/>
+                  <xsd:element name="fecha_naciemiento" type="xsd:date"/>
+                  <xsd:element name="Dan" type="xsd:string"/>
+                  <xsd:element name="cinturon"  type="xsd:string"/>
+                  <xsd:element name="Fecha_ingreso_Dan" type="xsd:date"/>
+                  <xsd:element name="Foto_aspirante"  type="xsd:string"/>
+                  <xsd:element name="Tiempo_Dan_Anterior" type="xsd:date"/>
+                  <xsd:element name="FotoDni" type="xsd:string"/>
+                  <xsd:element name="FotoCarnetGrados" type="xsd:string"/>
+              </xsd:sequence>
+          </xsd:restriction>
+      </xsd:complexContent>
+  </xsd:complexType>         
+    <xsd:complexType name="typeCinturonNegroPrimerDan">
+        <xsd:complexContent>
+            <xsd:restriction base="xsd:anyType">
+                <xsd:sequence>
+                    <xsd:element name="tecnica_defensa" type="xsd:string"/>
+                    <xsd:element name="tecnica_pierna" type="xsd:string"/> 
+                    <xsd:element name="tecnica_directaindirecta" type="xsd:string"/>
+                    <xsd:element name="tecnica_combinada" type="xsd:string"/>
+                    <xsd:element name="teoria" type="xsd:string"/>
+                    <xsd:element name="kata" type="xsd:string"/>
+                    <xsd:element name="kumite" type="xsd:string"/>
+                    <xsd:element name="aplicacion_tecnica" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:restriction>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="typeCinturonNegroSegundoDan">
+        <xsd:complexContent>
+            <xsd:restriction base="xsd:anyType">
+                <xsd:sequence>
+                    <xsd:element name="tecnica_base" type="xsd:string"/>
+                    <xsd:element name="tecnica_directa" type="xsd:string"/> 
+                    <xsd:element name="tecnica_indirectacircular" type="xsd:string"/>
+                    <xsd:element name="tecnica_pierna" type="xsd:string"/>
+                    <xsd:element name="tecnica_combinada" type="xsd:string"/>
+                    <xsd:element name="teoria" type="xsd:string"/>
+                    <xsd:element name="kata" type="xsd:string"/>
+                    <xsd:element name="kumite" type="xsd:string"/>
+                    <xsd:element name="campeonatos" type="xsd:string"/>
+                    <xsd:element name="tecnicas" type="xsd:string"/>
+                    <xsd:element name="aplicaciones" type="xsd:string"/>
+                    <xsd:element name="aplicaciones_tecnicas" type="xsd:string"/>
+                    <xsd:element name="demo_libre" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:restriction>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="typeCinturonNegroTercerDan">
+        <xsd:complexContent>
+            <xsd:restriction base="xsd:anyType">
+                <xsd:sequence>
+                    <xsd:element name="variaciones_tecnica" type="xsd:string"/>
+                    <xsd:element name="kumite" type="xsd:string"/> 
+                    <xsd:element name="kata" type="xsd:string"/>
+                    <xsd:element name="aplicaciones_tecnicas" type="xsd:string"/>
+                    <xsd:element name="kumite" type="xsd:string"/>
+                    <xsd:element name="campeonatos" type="xsd:string"/>
+                    <xsd:element name="tecnica" type="xsd:string"/>
+                    <xsd:element name="aplicaciones" type="xsd:string"/>
+                    <xsd:element name="aplicacion_tecnica" type="xsd:string"/>
+                    <xsd:element name="demo_libre" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:restriction>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+<xsd:simpleType name="code">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-10]{4}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="DNI">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{7,8}[A-Z]"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+    <xsd:simpleType name="Telefono">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{9}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

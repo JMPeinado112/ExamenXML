@@ -64,9 +64,53 @@ xsi:noNamespaceSchemaLocation="ExamenEstructura.xsd">
             <kata></kata>
             <kumite></kumite>
             <campeonatos></campeonatos>
-        </Hasta3erDan>
-
-    <Aspirantes>     
+        </Hasta3erDan>  
+        <SuspendeExamen> 
+            <id_aspirante>0001</id_aspirante>
+            <SuspendeParcial>true</SuspendeParcial>
+            <SuspendeTotal>true</SuspendeTotal>
+            <SuspendeSegundaFase>true</SuspendeSegundaFase>
+        </SuspendeExamen>
+        <AbonarCuota> 
+            <Id_aspirante>0001</Id_aspirante>
+        </AbonarCuota>
+        <Resultados> 
+            <Id_aspirante>0001</Id_aspirante>
+        </Resultados>
+        <Tribunal> 
+            <Numero_jueces>2</Numero_jueces>
+            <Calificacion_final>6</Calificacion_final>
+        </Tribunal>
+        <Jueces> 
+            <Id_jueces>0001</Id_jueces>
+            <Nombres>Dilan</Nombres>
+            <Apellidos>Tunez</Apellidos>
+            <DiplomaJuez>true</DiplomaJuez>
+        </Jueces>
+        <Meritos> 
+            <Id_aspirante>0001</Id_aspirante>
+            <Edad_aspirante>21</Edad_aspirante>
+            <LicenciaActualizada>true</LicenciaActualizada>
+            <TrabajoEscrito>true</TrabajoEscrito>
+        </Meritos>
+        <Convalidacion_grados> 
+            <Id_aspirante>0001</Id_aspirante>
+        </Convalidacion_grados>
+        <Requisitos_Aspirante> 
+            <SolicitudHasta3Dan>true</SolicitudHasta3Dan>
+            <Dan4ySuperiorCurriculum>true</Dan4ySuperiorCurriculum>
+        </Requisitos_Aspirante>
+        <DispensaMedica> 
+            <Id_aspirante>0001</Id_aspirante>
+        </DispensaMedica>
+        <Criterio_Valoracion> 
+            <Indumentaria>6</Indumentaria>
+            <AseoPersonal>5</AseoPersonal>
+            <EjecucionTecnica>4</EjecucionTecnica>
+            <Valores>3</Valores>
+            <Respuestas>2</Respuestas>
+        </Criterio_Valoracion>    
+        <Aspirantes>     
             <id_aspirante>0001</id_aspirante>
             <nombres>Juan</nombres>
             <apellidos>puttin</apellidos>
@@ -81,5 +125,5 @@ xsi:noNamespaceSchemaLocation="ExamenEstructura.xsd">
             <Tiempo_Dan_Anterior>1955-03-01</Tiempo_Dan_Anterior>
             <FotoDni>foto.png</FotoDni>
             <FotoCarnetGrados>foto.png</FotoCarnetGrados>
-    </Aspirantes> 
+        </Aspirantes> 
 </Examen_Karate>

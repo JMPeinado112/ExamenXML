@@ -158,22 +158,103 @@
      <xsd:complexContent>
          <xsd:restriction base="xsd:anyType">
              <xsd:sequence> 
-                 <xsd:element name="Tecnicas" type="xsd:string"/>
-                 <xsd:element name="kata" type="xsd:string"/>
-                 <xsd:element name="kumite" type="xsd:string"/>
-                 <xsd:element name="campeonatos" type="xsd:string"/>
+                 <xsd:element name="id_aspirante" type="code"/>
+                 <xsd:element name="SuspendeParcial" type="xsd:boolean"/>
+                 <xsd:element name="SuspendeTotal" type="xsd:boolean"/>
+                 <xsd:element name="SuspendeSegundaFase" type="xsd:boolean"/>
              </xsd:sequence>
          </xsd:restriction>
      </xsd:complexContent>
 </xsd:complexType>
-<xsd:complexType name="typeHasta3erDan">
+<xsd:complexType name="typeAbonarCuota">
      <xsd:complexContent>
          <xsd:restriction base="xsd:anyType">
              <xsd:sequence> 
-                 <xsd:element name="Tecnicas" type="xsd:string"/>
-                 <xsd:element name="kata" type="xsd:string"/>
-                 <xsd:element name="kumite" type="xsd:string"/>
-                 <xsd:element name="campeonatos" type="xsd:string"/>
+                 <xsd:element name="Id_aspirante" type="code"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeResultados">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Id_aspirante" type="code"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeTribunal">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Numero_jueces" type="xsd:integer"/>
+                 <xsd:element name="Calificacion_final" type="xsd:integer"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeJueces">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Id_jueces" type="code"/>
+                 <xsd:element name="Nombres" type="xsd:string"/>
+                 <xsd:element name="Apellidos" type="xsd:string"/>
+                 <xsd:element name="DiplomaJuez" type="xsd:boolean"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeMeritos">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Id_aspirante" type="code"/>
+                 <xsd:element name="Edad_aspirante" type="xsd:string"/>
+                 <xsd:element name="LicenciaActualizada" type="xsd:boolean"/>
+                 <xsd:element name="TrabajoEscrito" type="xsd:boolean"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeConvalidacion_grados">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Id_aspirante" type="code"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeRequisitos_Aspirantes">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="SolicitudHasta3Dan" type="xsd:boolean"/>
+                 <xsd:element name="Dan4ySuperiorCurriculum" type="xsd:boolean"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeDispensaMedica">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Id_aspirante" type="code"/>
+             </xsd:sequence>
+         </xsd:restriction>
+     </xsd:complexContent>
+</xsd:complexType>
+<xsd:complexType name="typeCriterio_Valoracion">
+     <xsd:complexContent>
+         <xsd:restriction base="xsd:anyType">
+             <xsd:sequence> 
+                 <xsd:element name="Indumentaria" type="xsd:integer"/>
+                 <xsd:element name="AseoPersonal" type="xsd:integer"/>
+                 <xsd:element name="EjecucionTecnica" type="xsd:integer"/>
+                 <xsd:element name="Valores" type="xsd:integer"/>
+                 <xsd:element name="Respuestas" type="xsd:integer"/>
              </xsd:sequence>
          </xsd:restriction>
      </xsd:complexContent>

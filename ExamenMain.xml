@@ -52,18 +52,18 @@ xsi:noNamespaceSchemaLocation="ExamenEstructura.xsd">
             <coloquio>Shino</coloquio>
         </CinturonNegroQuintoDan>
         <CinturonNegro> 
-            <Tecnica_directa></Tecnica_directa>
-            <tecnica_circulares></tecnica_circulares>
-            <tecnica_pierna></tecnica_pierna>
-            <teoria></teoria>
-            <kata></kata>
-            <kumite></kumite>
+            <Tecnica_directa>Director</Tecnica_directa>
+            <tecnica_circulares>Tecnica circular</tecnica_circulares>
+            <tecnica_pierna>Pierna desplegable</tecnica_pierna>
+            <teoria>Teoria</teoria>
+            <kata>Kata</kata>
+            <kumite>Kumite</kumite>
         </CinturonNegro>
         <Hasta3erDan> 
-            <Tecnicas></Tecnicas>
-            <kata></kata>
-            <kumite></kumite>
-            <campeonatos></campeonatos>
+            <Tecnicas>Tecnic</Tecnicas>
+            <kata>Katana</kata>
+            <kumite>Kuturur</kumite>
+            <campeonatos>3</campeonatos>
         </Hasta3erDan>  
         <SuspendeExamen> 
             <id_aspirante>0001</id_aspirante>

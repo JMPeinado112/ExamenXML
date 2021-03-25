@@ -4,37 +4,37 @@
 xsi:noNamespaceSchemaLocation="ExamenEstructura.xsd">
     <Id_aspirante>0001</Id_aspirante>
     <CinturonNegroPrimerDan>     
-            <tecnica_defensa></tecnica_defensa>
-            <tecnica_pierna></tecnica_pierna>   
-            <tecnica_directaindirecta></tecnica_directaindirecta>
-            <tecnica_combinada></tecnica_combinada> 
-            <teoria></teoria>
-            <kata></kata>
-            <kumite></kumite>
-            <aplicacion_tecnica></aplicacion_tecnica>
+            <tecnica_defensa>Patada Giratoria</tecnica_defensa>
+            <tecnica_pierna>Patada baja</tecnica_pierna>   
+            <tecnica_directaindirecta>Patada lineadirecta</tecnica_directaindirecta>
+            <tecnica_combinada>Patada de ketchup y mostaza</tecnica_combinada> 
+            <teoria>Teoria</teoria>
+            <kata>Katara</kata>
+            <kumite>Kumiterete</kumite>
+            <aplicacion_tecnica>AppStore</aplicacion_tecnica>
     </CinturonNegroPrimerDan>
     <CinturonNegroSegundoDan>     
-            <tecnica_base></tecnica_base>
-            <tecnica_directa></tecnica_directa>
-            <tecnica_indirectacircular></tecnica_indirectacircular>
-            <tecnica_pierna></tecnica_pierna>
-            <tecnica_combinada></tecnica_combinada>
-            <teoria></teoria>
-            <kata></kata>
-            <kumite></kumite>
-            <campeonatos></campeonatos>
-            <tecnicas></tecnicas>
-            <aplicaciones></aplicaciones>
-            <aplicaciones_tecnicas></aplicaciones_tecnicas>
-            <demo_libre></demo_libre>
+            <tecnica_base>RomperSuelo</tecnica_base>
+            <tecnica_directa>Patada a la cara</tecnica_directa>
+            <tecnica_indirectacircular>Patada a la cintura</tecnica_indirectacircular>
+            <tecnica_pierna>Patada al tobillo</tecnica_pierna>
+            <tecnica_combinada>Patada de mayonesa con ajo</tecnica_combinada>
+            <teoria>Teoria</teoria>
+            <kata>Katana</kata>
+            <kumite>Kunai</kumite>
+            <campeonatos>2</campeonatos>
+            <tecnicas>Tecnicas rapidas</tecnicas>
+            <aplicaciones>3</aplicaciones>
+            <aplicaciones_tecnicas>5</aplicaciones_tecnicas>
+            <demo_libre>DEmo de 3 usos</demo_libre>
         </CinturonNegroSegundoDan>
         <CinturonNegroTercerDan>     
-            <variaciones_tecnica></variaciones_tecnica>
-            <kumite></kumite>
-            <kata></kata>
-            <aplicaciones_tecnicas></aplicaciones_tecnicas>
-            <kumite></kumite>
-            <campeonatos></campeonatos>
+            <variaciones_tecnica>Variacion del cisne</variaciones_tecnica>
+            <kumite>Kumata</kumite>
+            <kata>Katami</kata>
+            <aplicaciones_tecnicas>Tecnicas de aplicacion</aplicaciones_tecnicas>
+            <kumite>Kumite 2</kumite>
+            <campeonatos>3</campeonatos>
             <tecnica></tecnica>
             <aplicaciones></aplicaciones>
             <aplicacion_tecnica></aplicacion_tecnica>

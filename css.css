@@ -1,30 +1,111 @@
-libro, titulo, autor, fechaPublicacion {
-  display: block;
+Examen_Karate{
+  background-image: url('p8.png');
 }
-
 CinturonNegroPrimerDan {
-  background-color: lightgrey;
-  font-family: sans-serif;
+  font-family: Impact;
   display: block;
-}
-
-libro {
-  background-color: lightgreen;
   border: black 2px solid;
-  margin: 10px;
+  font-size: larger;
 }
-
-titulo {
-  background-color: white;
-  border-bottom: black 2px solid;
-  font-weight: bold;
-  padding-left: 5px;
+ CinturonNegroSegundoDan {
+  font-family: Impact;
+  font-size: larger;
+  display: block;
+  border: black 2px solid;
 }
-
-autor {
-  padding-left: 5px;
+CinturonNegroTercerDan {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
 }
+CinturonNegroCuartoDan {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+CinturonNegroQuintoDan {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+CinturonNegro {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+Hasta3erDan {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+SuspendeExamen {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+AbonarCuota {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+Resultados {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+Tribunal {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+Jueces {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+Meritos {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
 
-fechaPublicacion {
-  padding-left: 5px;
+}
+Convalidacion_grados {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+Requisitos_Aspirante {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+DispensaMedica {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}
+Criterio_Valoracion {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
+}Aspirantes {
+  font-family: Impact;
+  display: block;
+  border: black 2px solid;
+  font-size: larger;
 }
